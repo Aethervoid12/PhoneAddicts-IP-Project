@@ -1,0 +1,29 @@
+.btn {
+    border-width: 4px;
+    border-style: solid;
+    background-color: inherit;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    height: 200px
+  }
+.discounts {    
+    border-color: red;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 43%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);}
+.rewards {    
+    border-color: blue;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 57%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);}
+
+.btn:hover {background: #eee;}
