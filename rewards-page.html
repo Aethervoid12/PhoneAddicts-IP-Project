@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NPEats</title>
+        <link rel="stylesheet" href="rewards-page.css">
+        <script defer src="rewards-page.js"></script>
+        
+      </head>
+    <body>
+        <button class="btn back" onclick="window.location.href='Home-Page.html'">Back</button><br><br>
+        <form id = "spin">
+        <input type="submit" value="ROLL FOR DISCOUNTS (5 CREDITS)" id="rewardSpin"><br>
+        </form>
+        <h1>Credits Left: <span id="myCredits"></span> </h1>
+        <div id="credit-error-msg-holder">
+            <span id="credit-error-msg">Insufficient Credits</span>
+            <span id="discount-code"></span>
+          </div>
+        <script>
+            const CreditError = document.getElementById("credit-error-msg");
+            const spinButton = document.getElementById("rewardSpin");
+            spinButton.addEventListener("click", (e) => {
+                e.preventDefault();
+                if (myCredits >= 5) {
+                     myCredits -= 5;
+                    localStorage.setItem('credits', myCredits.toString());
+                    var i = Math.random();
+                    i = 8 * i;
+                    i = Math.floor(i);
+                    var i = Math.floor(8*Math.random());
+                    console.log(r_text[i]);}
+                else 
+                    {CreditError.style.opacity = 1;}})
+        </script>
+    </body>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NPEats</title>
+        <link rel="stylesheet" href="daily-page.css">
+        <script defer src="daily-page.js"></script>
+      </head>
+    <body>
+        <button class="btn back" onclick="window.location.href='Home-Page.html'">Back</button><br><br>
+        <video controls loop>
+            <source src="Omurice.mp4" type="video/mp4">
+        </video>
+        <p>Identify this food:</p>
+        <form>
+            <input type="radio" id="curry" name="food" value="Curry">
+            <label for="curry">Curry</label><br>
+            <input type="radio" id="omurice" name="food" value="Omelette Rice">
+            <label for="omurice">Omelette Rice</label><br>
+            <input type="radio" id="potato" name="food" value="Mashed Potato">
+            <label for="potato">Mashed Potato</label><br>
+            <input type="submit" id="daily-form-submit" value="Submit">
+            </form>
+        <h1>Your Credits: <span id='myCredits'></span></h1>
+    </body>

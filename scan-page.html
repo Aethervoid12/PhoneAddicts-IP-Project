@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NPEats</title>
+        <link rel="stylesheet" href="scan-page.css">
+        <script defer src="scan-page.js"></script>
+      </head>
+
+      <body>
+          <h1>Enter Receipt Credit Code</h1>
+          <button class="btn back" onclick="window.location.href='Home-Page.html'">Back</button><br><br>
+          <form id="redeemReceipt">
+            <input type="text" name="receipt" id="receipt" placeholder="Enter Code here">
+            <input type="submit" value="Redeem" id="redeem-code-submit">
+          </form>
+          <h1>Your Credits: <div id="myCredits"></div></h1>
+      </body>
