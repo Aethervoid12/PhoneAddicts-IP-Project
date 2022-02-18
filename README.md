@@ -2,6 +2,8 @@
 
 This is an app designed to encourage students to eat and spend money in NP as opposed to eating outside by offering random discounts as a reward for eating in NP. By randomising the discounts, it also encourages students to try foods from other locations within NP itself.
 
+Link: https://github.com/Aethervoid12/PhoneAddicts-IP-Project/tree/main
+
 ## Design Process
 
 The design process for this was how to exactly entice students to stay within NP to eat. Most students nowadays are extremely apathetic towards everything and are extremely extrinsicly driven, thus we decided on a material reward (discount codes) to entice them. We thought of the following user story:
