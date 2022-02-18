@@ -30,6 +30,15 @@ No API implementation so far
 
 No Animations
 
+## User Notes when testing site
+
+username = s10221837
+
+password = password
+
+Receipt code = 5
+
+Daily game answer = Omelette Rice
 
 ## Technologies Used
 
